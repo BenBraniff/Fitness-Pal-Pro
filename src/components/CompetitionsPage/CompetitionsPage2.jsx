@@ -10,22 +10,22 @@ const CompetitionsPage2 = () => {
         </div>
         <div class="comp-info">
             <div class="competition-cards">
-                <div class="competition-card">Max Bench</div>
-                <div class="competition-card">Max Steps</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
-                <div class="competition-card">Group X Class</div>
+                <button class="competition-card">Max Bench</button>
+                <button class="competition-card">Max Steps</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
+                <button class="competition-card">Group X Class</button>
             </div>
             <div class="competition-details">
                 <div class="competition-header">
@@ -35,7 +35,7 @@ const CompetitionsPage2 = () => {
                 <p class="date-range">Open: Now - Fri Nov. 15</p>
                 <div class="leaderboard">
                     <h3>Leaderboard</h3>
-                    <table>
+                    <table class="table">
                         <tr>
                             <td>1.</td>
                             <td>315 lb</td>
@@ -65,7 +65,7 @@ const CompetitionsPage2 = () => {
                 </div>
                 <div class="rewards">
                     <h3>Rewards</h3>
-                    <table>
+                    <table class="table">
                         <tr>
                             <td>1.</td>
                             <td>$25 gift card</td>
@@ -79,7 +79,7 @@ const CompetitionsPage2 = () => {
                             <td>$10 gift card</td>
                         </tr>
                         <tr>
-                            fit cash for all
+                            30 fit cash for all
                         </tr>
                     </table>
                 </div>
