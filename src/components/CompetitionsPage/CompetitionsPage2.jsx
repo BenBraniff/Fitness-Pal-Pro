@@ -37,27 +37,27 @@ const CompetitionsPage2 = () => {
                     <h3>Leaderboard</h3>
                     <table class="table">
                         <tr>
-                            <td>1.</td>
+                            <th>1.</th>
                             <td>315 lb</td>
                             <td>Ben</td>
                         </tr>
                         <tr>
-                            <td>2.</td>
+                            <th>2.</th>
                             <td>275 lb</td>
                             <td>Alex</td>
                         </tr>
                         <tr>
-                            <td>3.</td>
+                            <th>3.</th>
                             <td>270 lb</td>
                             <td>Brett</td>
                         </tr>
                         <tr>
-                            <td>4.</td>
+                            <th>4.</th>
                             <td>225 lb</td>
                             <td>James</td>
                         </tr>
                         <tr>
-                            <td>5.</td>
+                            <th>5.</th>
                             <td>205 lb</td>
                             <td>Max</td>
                         </tr>
@@ -67,21 +67,73 @@ const CompetitionsPage2 = () => {
                     <h3>Rewards</h3>
                     <table class="table">
                         <tr>
-                            <td>1.</td>
+                            <th>1.</th>
                             <td>$25 gift card</td>
                         </tr>
                         <tr>
-                            <td>2.</td>
+                            <th>2.</th>
                             <td>$15 gift card</td>
                         </tr>
                         <tr>
-                            <td>3.</td>
+                            <th>3.</th>
                             <td>$10 gift card</td>
                         </tr>
+                    </table>
+                    <p>30 fit cash for all</p>
+                </div>
+                <div class="rewards">
+                    <h3>Rewards</h3>
+                    <table class="table">
                         <tr>
-                            30 fit cash for all
+                            <th>1.</th>
+                            <td>$25 gift card</td>
+                        </tr>
+                        <tr>
+                            <th>2.</th>
+                            <td>$15 gift card</td>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <td>$10 gift card</td>
                         </tr>
                     </table>
+                    <p>30 fit cash for all</p>
+                </div>
+                <div class="rewards">
+                    <h3>Rewards</h3>
+                    <table class="table">
+                        <tr>
+                            <th>1.</th>
+                            <td>$25 gift card</td>
+                        </tr>
+                        <tr>
+                            <th>2.</th>
+                            <td>$15 gift card</td>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <td>$10 gift card</td>
+                        </tr>
+                    </table>
+                    <p>30 fit cash for all</p>
+                </div>
+                <div class="rewards">
+                    <h3>Rewards</h3>
+                    <table class="table">
+                        <tr>
+                            <th>1.</th>
+                            <td>$25 gift card</td>
+                        </tr>
+                        <tr>
+                            <th>2.</th>
+                            <td>$15 gift card</td>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <td>$10 gift card</td>
+                        </tr>
+                    </table>
+                    <p>30 fit cash for all</p>
                 </div>
             </div>
         </div>
