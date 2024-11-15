@@ -1,11 +1,15 @@
-  body {
+  /* body {
     background-color: black;
   }
-  
-  .body-container {
+   */
+  .competitions-container {
     width: 100%;
     display: grid;
     position: relative;
+  }
+
+  .top-bar{
+    height: 100px;
   }
 
   .top-bar h1{
@@ -17,18 +21,20 @@
     background-color: #1F262E;
     display: inline-flex;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .competition-cards {
-    background-color: #1F262E;
     display: grid;
     gap: 10px;
     margin-top: 10px;
     width: 40%;
+    max-width: 400px;
     max-height: 600px;
     overflow-y: auto;
-    /* scroll-padding: 20px; */
     scroll-margin-left: 20px;
+    margin-left: auto;
   }
 
   .competition-details {
@@ -39,6 +45,8 @@
     max-height: 600px;
     padding-left:5px;
     padding-right:5px;
+    max-width: 400px;
+    margin-right: auto;
   }
 
   .competition-card {
@@ -71,6 +79,7 @@
     border-radius: 8px;
     width: 100%;
     color: #FFFFFF;
+    text-align: center;
   }
 
   .table {
@@ -94,10 +103,10 @@
     border-radius: 8px;
     width: 100%;
     color: #FFFFFF;
+    text-align: center;
   }
 
   .competition-header {
-    background-color: #1F262E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -139,6 +148,6 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #637589;
+  background: #768ba3;
 }
   
