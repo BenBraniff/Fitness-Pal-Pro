@@ -2,6 +2,12 @@ import React from 'react'
 import './CompetitionsPage.css'
 
 
+    const toggleButton = document.querySelector('.toggle-btn');
+    toggleButton.addEventListener('click', () => {
+    toggleButton.classList.toggle('active');
+    });
+
+
 const CompetitionsPage2 = () => {
   return (
     <div class="competitions-container">
@@ -12,6 +18,12 @@ const CompetitionsPage2 = () => {
             <div class="competition-cards">
                 <button class="competition-card">Max Bench</button>
                 <button class="competition-card">Max Steps</button>
+                <button class="competition-card">Max Steps</button>
+                <select multiple="multiple">
+    <option value="1">Option one</option>
+    <option value="2">Option two</option>
+</select>
+                <button class="toggle-btn">Toggle</button>
                 <button class="competition-card">Group X Class</button>
                 <button class="competition-card">Group X Class</button>
                 <button class="competition-card">Group X Class</button>
